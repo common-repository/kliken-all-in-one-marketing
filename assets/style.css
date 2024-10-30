@@ -1,0 +1,105 @@
+/* Generic Classes */
+.kk-center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.kk-default-hide {
+  display: none;
+}
+
+/* End Generic Classes */
+
+h2 .kk-button {
+  position: relative;
+  left: 20px;
+}
+
+.kk-note ul {
+  list-style-type: square;
+  padding-left: 40px;
+}
+
+.kk-link-account {
+  width: 500px; /* equal to width of the iframe */
+}
+
+.kk-link-account .kk-button-big {
+  font-size: 18px;
+  height: auto;
+  padding: 5px 10px;
+}
+
+.kk-report-shortcuts {
+  margin-top: 10px;
+  width: 600px;
+}
+
+.kk-report-shortcuts .shortcut {
+  cursor: pointer;
+}
+
+.kk-report-shortcuts .banner {
+  display: inline-block;
+  margin-bottom: 5px;
+  width: 552px;
+  height: 189px;
+  background-size: contain;
+}
+
+.kk-report-shortcuts .banner-text {
+  position: relative;
+}
+
+.kk-report-shortcuts .banner-text.container {
+  width: 65%;
+  float: left;
+  padding: 50px 15px;
+  line-height: 1;
+}
+
+.kk-report-shortcuts .banner-text.heading {
+  font-size: 28px;
+  display: inline-block;
+  width: 320px;
+}
+
+.kk-report-shortcuts .banner-text.sub-heading {
+  font-size: 13px;
+  display: inline-block;
+  margin: 10px 0px;
+}
+
+.kk-report-shortcuts .shortcut-tile {
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+  background-color: #f26522;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  font-weight: bold;
+  border: 1px #ccc solid;
+}
+
+.kk-report-shortcuts .shortcut-tile:hover {
+  border-color: #0074a2;
+}
+
+.kk-report-shortcuts .shortcut-tile .dashicons {
+  font-size: 80px;
+  width: auto;
+  height: auto;
+  padding-top: 30px;
+}
+
+.kk-report-shortcuts .shortcut-tile h1 {
+  font-size: 2em;
+  margin-top: 10px;
+  padding: 0;
+  color: #fff;
+}
+
+.kk-contact .dashicons {
+  text-decoration: none;
+}
